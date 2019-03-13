@@ -1,0 +1,166 @@
+/* All Styles for index; common for index wspolpraca and kontakt; separate styles for wspolpraca and kontakt */
+
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navigation */
+nav.navbar {
+    padding: 10px;
+}
+
+nav.navbar button.navbar-toggler {
+    font-size: 2.2rem;
+}
+
+nav.navbar div.navbar-nav a {
+    font-size: 2.2rem;
+}
+
+nav.navbar .facebook-icon {
+    display: none;
+}
+
+nav.navbar .ravpol-logo {
+    display: none;
+}
+
+/* Header */
+header {
+    position: relative;
+    height: 70vh;
+    background-image: url(../img/Ravpol-kredyty-background.jpg);
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+header::after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: none repeat 0 0 rgba(0, 0, 0, 0.2);
+}
+
+header div.headerText {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px black;
+    color: white;
+    padding: 0 10px;
+    z-index: 2;
+}
+
+header div.headerText h1 {
+    font-size: 4rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+header h1::first-letter {
+    font-size: 5rem;
+    color: #f0b607;
+}
+
+header div.headerText h2 {
+    font-size: 3.4rem;
+    letter-spacing: 4px;
+}
+
+/* About company section */
+section.about div.ravpol img.imgCenter {
+    display: block;
+    margin: 0 auto;
+}
+
+/* second banner */
+section.banner {
+    position: relative;
+    background-image: url(../img/Ravpol-kredyty-team.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 155px;
+}
+
+section.banner h4 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+/*footer */
+footer {
+    background-color: rgba(233, 233, 233, .5);
+    padding: 8px 0;
+}
+
+footer h6 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+
+/* Separate styles for wspolpraca.css */
+
+/* offer section */
+section.offer img {
+    padding-bottom: 10px;
+}
+
+/* button */
+div.button button {
+    font-size: 2rem;
+}
+
+
+/* separate styles for kontakt.html */
+
+/* section location */
+section.location p strong {
+    text-shadow: 1px 1px black;
+}
+
+/*section contact */
+section.contact ul li h2 {
+    font-size: 2.6rem;
+}
+
+
+/* Additional classes - common for all */
+.borderBottom {
+    border-bottom: 1px solid orange;
+}
+
+.paragraph {
+    font-size: 2rem;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+
+.headline {
+    font-size: 5.5rem;
+    letter-spacing: 6px;
+    padding: 35px 0;
+    margin-bottom: 0;
+}

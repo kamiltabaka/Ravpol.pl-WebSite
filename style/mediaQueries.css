@@ -1,0 +1,62 @@
+@media (min-width:768px) {
+    html {
+        font-size: 12px;
+    }
+
+    nav.navbar {
+        padding: 0;
+    }
+
+    nav.navbar div.navbar-nav {
+        height: 100px;
+    }
+
+    nav.navbar .nav-item {
+        line-height: 100px;
+    }
+
+    nav.navbar .facebook-icon {
+        display: block;
+        font-size: 2.5rem;
+        color: gray;
+    }
+
+    nav.navbar .ravpol-logo {
+        display: block;
+        padding: 0;
+        margin: 5px 15px 0 0;
+    }
+
+    header div.headerText h1 {
+        font-size: 5.5rem;
+        padding-bottom: 20px;
+    }
+
+    header h1::first-letter {
+        font-size: 6.8rem;
+        color: #f0b607;
+    }
+
+    header div.headerText h2 {
+        font-size: 4rem;
+        letter-spacing: 4px;
+    }
+
+    section.about img.imgCenter {
+        float: left;
+    }
+
+    section.contact ul li h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:1024px) {
+    section.banner h4 {
+        font-size: 3.3rem;
+    }
+
+    section.contact ul li h2 {
+        font-size: 2.5rem;
+    }
+}
